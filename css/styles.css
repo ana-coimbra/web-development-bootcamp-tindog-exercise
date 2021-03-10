@@ -2,6 +2,27 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  color: #6f6f6f;
+}
+
 #title {
   color: #fff;
   background-color: #ff4c68;
@@ -11,11 +32,6 @@ body {
   padding: 3% 15%;
 }
 
-h1 {
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
 /* Navigation Bar */
 
 .navbar {
@@ -70,15 +86,6 @@ h1 {
   color: #ff4c68;
 }
 
-.feature-box h3 {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.feature-box p {
-  color: #6f6f6f;
-}
-
 /* Testimonial Section */
 
 #testimonials {
@@ -90,12 +97,6 @@ h1 {
 
 .carousel-item {
   padding: 7% 15%;
-}
-
-#testimonials h2 {
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -121,4 +122,18 @@ h1 {
 
 #pricing {
   padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-header h3 {
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.card-body h2 {
+  font-weight: 500;
 }
